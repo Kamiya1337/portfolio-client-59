@@ -7,10 +7,10 @@
 @layer base {
   * { box-sizing: border-box; }
   html { min-width: 320px; overflow-x: clip; background: #F3F0EA; }
-  body { margin: 0; min-width: 320px; overflow-x: clip; background: #F3F0EA; color: #252422; font-family: 'Be Vietnam Pro', ui-sans-serif, system-ui, sans-serif; font-size: 16px; line-height: 1.6; -webkit-font-smoothing: antialiased; }
+  body { margin: 0; min-width: 320px; overflow-x: clip; background: #F3F0EA; color: #11223F; font-family: 'Be Vietnam Pro', ui-sans-serif, system-ui, sans-serif; font-size: 16px; line-height: 1.6; -webkit-font-smoothing: antialiased; }
   button, a { -webkit-tap-highlight-color: transparent; }
   button:focus-visible, a:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }
-  ::selection { background: #252422; color: #F3F0EA; }
+  ::selection { background: #11223F; color: #F3F0EA; }
 }
 
 @layer components {
@@ -37,7 +37,7 @@
 
 @media print {
   @page { margin: 10mm; }
-  html, body, #root { width: 100%; height: auto !important; overflow: visible !important; background: #F3F0EA !important; color: #252422 !important; }
+  html, body, #root { width: 100%; height: auto !important; overflow: visible !important; background: #F3F0EA !important; color: #11223F !important; }
   .portfolio-app { display: flex !important; min-height: auto !important; background: #F3F0EA !important; print-color-adjust: exact; -webkit-print-color-adjust: exact; }
   .portfolio-mobile-header, .portfolio-mobile-overlay { display: none !important; }
   .portfolio-sidebar { position: static !important; display: flex !important; width: 64mm !important; min-height: 100vh !important; flex-shrink: 0 !important; transform: none !important; }
